@@ -1,8 +1,13 @@
 import { Collection } from './interfaces'
 import intersection from './watch/intersection'
 
+/**
+ * Our full collection of methods
+ */
 const fm: Collection = {
-    intersection: {...intersection}
+    watchFor: {
+        intersection: {...intersection}
+    }
 }
 
 module.exports = fm
