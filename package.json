@@ -2,7 +2,7 @@
   "name": "foremilk",
   "packageManager": "yarn@3.3.0",
   "description": "Lightweight collection of methods for common front-end tasks such as lazy-loading and iterating objects",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "files": [
     "dist",
