@@ -3,14 +3,26 @@
   "packageManager": "yarn@3.3.0",
   "description": "Lightweight collection of methods for common front-end tasks such as lazy-loading and iterating objects",
   "version": "0.1.0",
-  "main": "index.js",
+  "type": "module",
+  "files": [
+    "dist",
+    "source"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "tsc",
+    "watch": "tsc -w"
   },
   "author": "Matthew Schroeter",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sincspecv/ForeMilk.git"
+  },
   "volta": {
     "node": "16.18.1",
-    "yarn": "1.22.19"
+    "yarn": "3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
   }
 }
