@@ -1,0 +1,16 @@
+{
+  "name": "foremilk",
+  "packageManager": "yarn@3.3.0",
+  "description": "Lightweight collection of methods for common front-end tasks such as lazy-loading and iterating objects",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Schroeter",
+  "license": "MIT",
+  "volta": {
+    "node": "16.18.1",
+    "yarn": "1.22.19"
+  }
+}
